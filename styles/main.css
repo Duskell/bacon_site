@@ -1,12 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
 body {
     background-color: #283747;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
 }
 
 .main {
     position: absolute;
-    left: 10vw;
+    left: 25vw;
     top: 10vh;
-    width: 80vw;
+    width: 50vw;
     height: 80vh;
     border-radius: 15px;
+    background-color: #a06d62;
+}
+
+#title {    
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: calc(1.5em + 1vw); /* Font size scales with screen size */
+}
+
+#version {
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    padding: 0.5% 0;
+    background-color: #a37f77;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#version p {
+    font-size: calc(1em + 0.5vw); /* Font size scales with screen size */
+    font-weight: 700;
+}
+
+#latest {
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+    background-color: #80544a;
+    width: 30%;
+    height: 8%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#latest a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: inherit;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #0e1111;
+    font-size: calc(1.2em + 0.5vw); /* Responsive text size */
+    transition: background-color 0.3s;
+    padding: 0 5%; /* Add horizontal padding, no vertical padding */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+#latest a:hover {
+    background-color: #613b2c;
+}
+
+#listbutton {
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    background-color: #80544a;
+    width: 30%;
+    height: 8%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#listbutton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: inherit;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #0e1111;
+    font-size: calc(1.2em + 0.5vw); /* Responsive text size */
+    transition: background-color 0.3s;
+    padding: 0 5%; /* Add horizontal padding, no vertical padding */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+#listbutton a:hover {
+    background-color: #613b2c;
 }
