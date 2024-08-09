@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (window.location.hostname === 'plainsite.click' && window.location.pathname.endsWith('/index.html')) {
+            window.location.replace(window.location.origin + '/');
+        }
+    </script>
 </head>
 <body>
 <div class="main">
     <img src="assets/Title.png" alt="bacon" id="title">
     <div id="version">
-        <p>Legújabb verzió: </p>
+        <p>Legújabb verzió: 1.3.5</p>
     </div>
     <div id="latest">
-        <a href="https://archive.plainsite.click/bacon%201.3.1.zip" download>Letöltés</a>
+        <a href="https://archive.plainsite.click/bacon%201.3.5.zip" download>Letöltés</a>
     </div>
     <div id="listbutton">
-        <a href="mods/modlist.html">Mod lista</a>
+        <a href="modlist.html">Mod lista</a>
     </div>
     
 </div>
