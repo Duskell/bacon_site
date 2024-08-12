@@ -185,11 +185,12 @@ body {
     flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
-.mod p {
+.mod p, a {
     margin-left: 20px; /* Space between image and text */
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: calc(1em + 0.5vw);
+    text-decoration: none;
 }
 
 #client::-webkit-scrollbar,
