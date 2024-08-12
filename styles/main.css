@@ -53,7 +53,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #latest a {
@@ -68,10 +67,10 @@ body {
     border-radius: 5px;
     font-weight: 700;
     color: #0e1111;
-    font-size: calc(1.2em + 0.5vw); /* Responsive text size */
+    font-size: calc(1.2em + 0.5vw);
     transition: background-color 0.3s;
-    padding: 0 5%; /* Add horizontal padding, no vertical padding */
-    box-sizing: border-box; /* Include padding in width/height */
+    margin: 0 -5%; 
+    box-sizing: border-box; 
 }
 
 #latest a:hover {
@@ -106,7 +105,7 @@ body {
     color: #0e1111;
     font-size: calc(1.2em + 0.5vw); /* Responsive text size */
     transition: background-color 0.3s;
-    padding: 0 5%; /* Add horizontal padding, no vertical padding */
+    margin: 0 -5%; 
     box-sizing: border-box; /* Include padding in width/height */
 }
 
@@ -121,7 +120,7 @@ body {
     width: 7.5vw;
     height: 5vh;
     background-color: #a06d62;
-    border-radius: 10px;
+    border-radius: 7.5px;
     display: flex;  /* Flexbox for centering content */
     justify-content: center;  /* Center content horizontally */
     align-items: center;  /* Center content vertically */
@@ -135,11 +134,12 @@ body {
     background-color: inherit;  /* Background color for the link */
     color: #0e1111;  /* Text color */
     text-decoration: none;  /* Remove underline from the link */
-    border-radius: 10px;  /* Match the border-radius of the parent div */
+    border-radius: 7.5px;  /* Match the border-radius of the parent div */
     line-height: 5vh;  /* Vertically center the text */
     font-size: calc(0.8em + 0.3vw);  /* Responsive font size */
     font-weight: 700;
     transition: 0.5s;
+    margin: 0 -5%; 
 }
 
 #back a:hover{
